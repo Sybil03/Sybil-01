@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fafafa"
+    tools:context="com.youba.sudoku.activity.LevelActivity" >
+
+    <ScrollView
+        android:id="@+id/scrollView_level"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/chooselevel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="当前游戏总共60关"
+                android:textColor="@color/puzzle_dark" />
+        </RelativeLayout>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/dummy_button"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="10dp"
+        android:background="@drawable/selector_options_background"
+        android:text="继续游戏"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@drawable/selector_options_text"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/helpTip"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:contentDescription="@string/help_label"
+        android:keepScreenOn="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_win"
+        android:visibility="gone" />
+
+</RelativeLayout>

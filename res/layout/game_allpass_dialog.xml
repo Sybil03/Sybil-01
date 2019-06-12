@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="您的支持是我们最大的努力"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#e9c26d"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:text="恭喜您,已经通关啦,请帮我们评价一下吧!"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#e9c26d"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_rate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btn_exit"
+        android:layout_alignBottom="@+id/btn_exit"
+        android:layout_alignLeft="@+id/textView1"
+        android:background="@drawable/selector_options_background"
+        android:text="重新游戏"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@drawable/selector_options_text"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_exit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/textView1"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/selector_options_background"
+        android:text="退出游戏"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@drawable/selector_options_text"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

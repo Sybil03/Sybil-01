@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/button_game_next"
+        android:layout_width="200dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/game_next_time"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/selector_options_background"
+        android:text="下一关卡"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@drawable/selector_options_text"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/game_next_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="完成时间"
+        android:textSize="16sp"
+        android:textColor="#e9c26d" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_above="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/ic_win" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/game_next_time"
+        android:layout_centerHorizontal="true"
+        android:text="做得好!"
+        android:textColor="#e9c26d"
+        android:textSize="30sp" />
+
+</RelativeLayout>

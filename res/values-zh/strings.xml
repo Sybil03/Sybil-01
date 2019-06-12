@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="settings_label">设置...</string>
+    <string name="settings_title">数独设定</string>
+    <string name="settings_shortcut">数独快捷</string>
+    <string name="music_title">音乐</string>
+    <string name="music_summary">播放背景音乐</string>
+    <string name="hints_title">提示</string>
+    <string name="hints_summary">游戏中显示提示</string>
+    <string name="app_name">数独游戏</string>
+    <string name="main_title">安卓数独游戏</string>
+    <string name="continue_label">继续游戏</string>
+    <string name="new_game_label">新的游戏</string>
+    <string name="rate_label">评价游戏</string>
+    <string name="sound_label">声音</string>
+    <string name="music_label">音乐</string>
+    <string name="help_label">帮助</string>
+    <string name="about_title">关于安卓数独小游戏</string>
+    <string name="about_text">数独 是一种基于逻辑的数字拼图位置。 从一个部分 完成9 * 9网格,目 的都是为了填满每一行,每一列, 每个3 * 3盒(也称为块) 1到9的数字在每行每列只有一次。</string>
+    <string name="new_game_title">选择游戏难度</string>
+    <string name="easy_label">简单</string>
+    <string name="medium_label">中等</string>
+    <string name="hard_label">困难</string>
+    <string name="game_title">数独游戏</string>
+    <string name="keypad_title">小键盘</string>
+    <string name="clean">C</string>
+    <string name="edit">编辑模式</string>
+    <string name="tips">游戏提示</string>
+    <string name="no_moves_label">死胡同啦，请删除数字</string>
+    <string name="Options">游戏选项</string>
+    <string name="Restart">重新开始</string>
+    <string name="resume">继续游戏</string>
+    <string name="Sound_On">音乐开</string>
+    <string name="Sound_Off">音乐关</string>
+    <string name="record">游戏进度</string>
+    <string name="setting">游戏设置</string>
+    <string name="ranking">排行榜</string>
+    <string name="rate">评价</string>
+    <string name="share">分享</string>
+    <string name="quit">退出</string>
+    <string name="first_of_25">游戏总关卡为25关，您当前在第一关，尚无过关数据</string>
+    <string name="_exit_game">退出游戏</string>
+    <string name="_cancel">取消</string>
+    <string name="_ok">确定</string>
+    <string name="_return">返回</string>
+    <string name="game_record">游戏进度</string>
+    <string name="game_record_label">游戏总关卡为25关，您当前在第</string>
+    <string name="game_record_label_last">关
+\n</string>
+    <string name="record_state">总共60关，您当前在第1关</string>
+    <string name="game_record_text">总共60关，您当前在第3关</string>
+    <string name="returnToGame">返回游戏</string>
+    <string name="exit_game">退出游戏</string>
+    <string name="youWantToLevel">真的想离开这里吗？亲</string>
+    <string name="TakeARest">休息一下再回来哦，么么哒(づ￣ 3￣)づ</string>
+
+</resources>

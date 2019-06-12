@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ ! Excerpted from "Hello, Android",
+ ! published by The Pragmatic Bookshelf.
+ ! Copyrights apply to this code. It may not be used to create training material, 
+ ! courses, books, articles, and the like. Contact us if you are in doubt.
+ ! We make no guarantees that this code is fit for any purpose. 
+ ! Visit http://www.pragmaticprogrammer.com/titles/eband3 for more book information.
+-->
+<resources>
+
+    <color name="background">#3500ffff</color>
+    <color name="puzzle_background">#ffe6f0ff</color>
+    <color name="puzzle_zero_others">#7fDCEBF1</color>
+    <color name="puzzle_hilite">#ffffffff</color>
+    <color name="puzzle_light">#64c6d4ef</color>
+    <color name="puzzle_dark">#6456648f</color>
+    <color name="puzzle_foreground">#FF8800</color>
+    <color name="puzzle_hint_0">#64ff0000</color>
+    <color name="puzzle_hint_1">#6400ff80</color>
+    <color name="puzzle_hint_2">#2000ff80</color>
+    <color name="puzzle_selected">#64ff8000</color>
+    <color name="puzzle_selected_same_num">#2196F3</color>
+    <color name="num_clean_button">#ADD8E6</color>
+    <color name="selected_zero">#6F6F6F</color>
+    <color name="selected_zero_kuang">#33B5E5</color>
+    <color name="selected_zero_none">#E0E0E0</color>
+    <color name="game_num_color">#F3F3F3</color>
+    <color name="puzzle_three">#90A4AE</color>
+    <color name="puzzle_nine">#E6E6E6</color>
+    <color name="options_menu_white">#CCCCCC</color>
+    <color name="options_menu">#ffffff</color>
+    <color name="options_menu_change">#0FA500</color>
+    <color name="number_failed">#4CAF50</color>
+    <color name="options_grey">#7D7D7D</color>
+    <color name="options_yellow">#FFA500</color>
+    <color name="trans">#00000000</color>
+    <color name="trans_white">#1f000000</color>
+    <color name="transparent_background">#efFFFFFF</color>
+    <color name="black_overlay">#66000000</color>
+
+</resources>

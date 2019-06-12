@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#efFFFFFF" >
+
+    <RelativeLayout
+        android:id="@+id/game_linear_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/btn_game_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/ic_logo_null" />
+
+        <Button
+            android:id="@+id/cancel_return"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/btn_game_logo"
+            android:layout_alignBottom="@+id/btn_game_logo"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="12dp"
+            android:background="#00000000" />
+
+        <TextView
+            android:id="@+id/tv_time_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#635e5c"
+            android:textSize="25sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/game_linear2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/share"
+            android:layout_width="200dp"
+            android:layout_height="45dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/selector_options_background"
+            android:text="@string/share"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@drawable/selector_options_text"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/sound"
+            android:layout_width="200dp"
+            android:layout_height="45dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/selector_options_background"
+            android:text="@string/Sound_On"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@drawable/selector_options_text"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/record"
+            android:layout_width="200dp"
+            android:layout_height="45dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/selector_options_background"
+            android:text="@string/record"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@drawable/selector_options_text"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/_return"
+            android:layout_width="200dp"
+            android:layout_height="45dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/selector_options_background"
+            android:text="@string/_return"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@drawable/selector_options_text"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Sudoku</string>
+    <string name="main_title">Android Sudoku</string>
+    <string name="continue_label">CONTINUE</string>
+    <string name="new_game_label">NEW GAME</string>
+    <string name="rate_label">RATE</string>
+    <string name="sound_label">Sound</string>
+    <string name="music_label">Music</string>
+    <string name="help_label">Help</string>
+    <string name="settings_label">Settings</string>
+    <string name="settings_title">Sudoku settings</string>
+    <string name="settings_shortcut">s</string>
+    <string name="music_title">Music</string>
+    <string name="music_summary">Play background music</string>
+    <string name="hints_title">Hints</string>
+    <string name="hints_summary">Show hints during play</string>
+    <string name="new_game_title">Select Mode</string>
+    <string name="easy_label">Easy</string>
+    <string name="medium_label">Medium</string>
+    <string name="hard_label">Hard</string>
+    <string name="game_title">Game</string>
+    <string name="no_moves_label">No moves</string>
+    <string name="keypad_title">Keypad</string>
+    <string name="about_title">About Android Sudoku</string>
+    <string name="about_text">\
+Sudoku is a logic-based number placement puzzle.
+Starting with a partially completed 9x9 grid, the
+objective is to fill the grid so that each
+row, each column, and each of the 3x3 boxes
+(also called <i>blocks</i>) contains the digits
+1 to 9 exactly once.</string>
+    <string name="time">00:00</string>
+    <string name="clean">C</string>
+    <string name="tips">tips</string>
+    <string name="Options">Options</string>
+    <string name="Sound_On">Sound On</string>
+    <string name="Sound_Off">Sound Off</string>
+    <string name="Restart">Restart</string>
+    <string name="resume">Resume</string>
+    <string name="record">Record</string>
+    <string name="setting">Setting</string>
+    <string name="ranking">Ranking</string>
+    <string name="rate">Rate</string>
+    <string name="share">Share</string>
+    <string name="quit">Quit</string>
+    <string name="first_of_25">The game have 25 checkpoints，you are at first checkpoints，no succeed data</string>
+    <string name="_exit_game">quit game</string>
+    <string name="_cancel">Cancel</string>
+    <string name="_ok">OK</string>
+    <string name="_return">Return</string>
+    <string name="game_record">Game Record</string>
+    <string name="game_record_label">The game have 25 CheckPoints,you are at </string>
+    <string name="game_record_label_last"> CheckPoint\n</string>
+    <string name="record_state">The game has 25 level,you are at 1 level</string>
+    <string name="game_record_text">The game has 25 level,you are at 1 level</string>
+    <string name="returnToGame">Return</string>
+    <string name="exit_game">Finish</string>
+    <string name="youWantToLevel">Really want to leave here,honey?</string>
+    <string name="TakeARest">Take a rest and go on 么么哒(づ￣ 3￣)づ</string>
+
+</resources>
