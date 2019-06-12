@@ -11,7 +11,7 @@ Sudoku is a popular number puzzle that requires you to fill blanks in a 9X9 grid
 ## Requirements - 必要条件
 You require the latest Android Studio 3.4 (or newer) to be able to build the app.
 
-## Installation - 安装（如何安装。）
+## Installation - 安装
   1.clone this repo<br>
   2.npm install<br>
   3.react-native link<br>
